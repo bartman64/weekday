@@ -8,8 +8,13 @@ class Zeller {
 		int century = year/100;
 		int restcentury = year%100;
 
-		if (month == 1) month = 13;
-		else if (month == 2) month = 14;
+		if (month == 1) {
+			month = 13;
+		}
+		else if (month == 2){
+
+			month = 14;
+		}
 
 
 
